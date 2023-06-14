@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Jesus Febres - Inicio</title>
+  <style>
+    body {
+      background-color: white;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: green;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav li {
+      margin: 0 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    form input, form textarea {
+      display: block;
+      margin-bottom: 10px;
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    form input[type="submit"] {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: green;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    #miui {
+      background-color: orangered;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 200px;
+      height: 200px;
+      margin: 20px 10px;
+      cursor: pointer;
+    }
+    #oneui {
+      background-color: rgb(33, 33, 219);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 200px;
+      height: 200px;
+      margin: 20px 10px;
+      cursor: pointer;
+    }
+    #aosp {
+      background-color: limegreen;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 200px;
+      height: 200px;
+      margin: 20px 10px;
+      cursor: pointer;
+    }
+    #miui:hover, #oneui:hover, #aosp:hover {
+      background-color: darkgreen;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 0 auto;
+      max-width: 800px;
+    }
+    .rectangle {
+      background-color: rgb(20, 107, 136);
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>~Android~</h1>
+    <nav>
+      <ul>
+        <li><a href="#">| Inicio |</a></li>
+        <li><a href="#">| Documentación |</a></li>
+        <li><a href="#">| Contacto |</a></li>
+        <li><a href="#">| Créditos |</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <p>Bienvenidos a Android y sus capas de personalización, en esta página podrás saber qué es una capa de personalización y las funciones que ofrecen las más populares.</p>
+    <div class="rectangle">
+      <a href="index2.html">¿Qué es una capa de personalización?</a>
+    </div>
+    <div class="container">
+      <a href="index3.html">
+        <div id="miui">
+          <h3 style="margin: 0;">MIUI</h3>
+        </div>
+      </a>
+      <a href="index4.html">
+        <div id="oneui">
+          <h3 style="margin: 0;">OneUI</h3>
+        </div>
+      </a>
+      <a href="#">
+        <div id="aosp">
+          <h3 style="margin: 0;">AOSP</h3>
+        </div>
+      </a>
+    </div>
+  </main>
+  <footer>
+    <p>Hecho por un Fan de android con mucho 🤍</p> 
+  </footer>
+</body>
+</html>
